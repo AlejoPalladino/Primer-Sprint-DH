@@ -1,0 +1,273 @@
+*{box-sizing: border-box;}
+
+ html{
+   width: 100%;
+ }
+body{
+  width: 100%;
+  background-color: #fffffa;
+}
+
+.logoBlanco{
+  width: 20%;
+  margin-left: -4%;
+}
+header{
+  margin-top: -0.6%;
+  width: 100%;
+  overflow: hidden;
+  background:#252932;
+}
+
+.container{
+width: 100%;
+max-width: 1400px;
+margin: 0 auto;
+overflow: hidden;
+font-family: arial;
+}
+
+
+header nav {
+  float: right;
+  margin-top: -10%;
+  padding-right: 5%:
+}
+
+header nav a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  line-height: normal;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+header nav a:hover{
+background: #f56f3a;
+border-radius: 50px;
+}
+
+
+.header2{
+
+  position: fixed;
+  height: 16%;
+  padding-right: 50px;
+}
+.header2 .Logotipo{
+  line-height: 100px;
+  font-size: 3%;
+  padding-left: 5%;
+
+}
+.header2 nav{
+  line-height: auto;
+}
+
+.cuerpo{
+  padding-top: 12.5%;
+  margin-top: -2%;
+  width: 100%;
+
+}
+.slogan{
+  overflow: hidden;
+  margin-top: -3.5%;
+  width: 100%;
+  color: #fff;
+  font-size: 200%;
+  text-align: center;
+  background-color: #f56f3a;
+  font-family: arial;
+}
+.slogan img{
+  position: relative;
+  width: 100%;
+}
+
+.slogan h1{
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.slogan2{
+  clear: both;
+  background-color: #252932;
+  margin: 0 auto;
+  padding-bottom: 4%;
+  padding-top: 1%;
+}
+.slogan2 h2 {
+  overflow: hidden;
+  color: #fff;
+  font-size: 200%;
+  text-align: center;
+  background-color: #252932;
+  font-family: arial;
+  padding: 2% 4% 0% 0%;
+  font-weight: lighter;
+}
+
+.ranking{
+  padding-top: 1%;
+  background-color: #252932;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.ranking .listaRanking{
+  width: 32%;
+  float: left;
+  color: #fff;
+  font-family: arial;
+  text-align: left;
+}
+
+.proximosRankings{
+  background-color: #f56f3a;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+}
+.proximosRankings h2{
+  color: #fff;
+  padding-top: 3%;
+}
+
+.proximosRankings .estreno{
+  float: left;
+  width: 24%;
+  margin: 3% 0.4%;
+  color: #fff;
+}
+.estreno img{
+  width: 100%;
+}
+.logo{
+  padding-top: 15%;
+}
+.logo img{
+  width: 100%;
+}
+
+.faq{
+  position: relative;
+  margin-top: -51%;
+  background-color: black;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+}
+.faqlist{
+  list-style-type: none;
+  font-size: 50%;
+}
+
+footer{
+  text-align: center;
+  overflow: hidden;
+  background-color:#252932;
+  color: #fff;
+  font-family: arial;
+  padding: 2% 0% 5% 0%;
+}
+footer h4{
+  padding-bottom: 1.5%;
+}
+footer a {
+  float: left;
+  margin-left: 3%;
+  width: 30%;
+  display: inline-block;
+  color: #fff;
+}
+
+
+/* Media Query para la barra de navegación */
+
+@media screen and (max-width:950px) {
+      header nav{
+        margin-top: -30%;
+        margin-left: 40%;
+        height: 30%;
+      }
+      #menu{
+        font-size: 80%;
+        margin: -10%;
+      }
+      .header2{
+        height: 9%;
+        margin-top: -2.5%;
+      }
+      .logoBlanco{
+        margin-top: -100px;;
+        width: 40%;
+        padding: 0 auto;
+      }
+      .slogan{
+        padding-top: 5%;
+        font-size: 100%;
+      }
+      .header2 .logo,
+      .header2 nav {
+        line-height: 50px;
+      }
+}
+
+@media screen and (max-width:1024px) {
+      header nav{
+        margin-top: -14%;
+        margin-left: 40%;
+        height: 30%;
+      }
+      #menu{
+        font-size: 80%;
+        margin: -10%;
+      }
+      .header2{
+        height: 8%;
+        margin-top: -2.5%;
+      }
+      .logoBlanco{
+        margin-top: 0.4% ;
+        width: 25%;
+        padding: 0 auto;
+      }
+      .slogan{
+        padding-top: 5%;
+        font-size: 100%;
+      }
+      .header2 .logo,
+      .header2 nav {
+        line-height: 50px;
+      }
+}
+
+@media screen and (max-width:670px) {
+      header nav{
+        margin-top: -27%;
+        margin-left: 80%;
+        height: 30%;
+      }
+      #menu{
+        font-size: 80%;
+        margin: -10%;
+      }
+      .header2{
+        height: 8%;
+        margin-top: -2.5%;
+      }
+      .logoBlanco{
+        margin-top: 0.4% ;
+        width: 35%;
+        padding: 0 auto;
+      }
+      .slogan{
+        padding-top: 5%;
+        font-size: 100%;
+      }
+      .header2 .logo,
+      .header2 nav {
+        line-height: 50px;
+      }
+}
